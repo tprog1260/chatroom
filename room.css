@@ -1,0 +1,122 @@
+body {
+    font-family: Georgia, Times New Roma, sans-serif;
+    font-size: 14px;
+}
+
+#bloc_page {
+    background: #333A56;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* HEADER */
+h1 {
+    padding-left:5px;
+    color: white;
+}
+
+header {
+    border-bottom: solid 3px black;
+    height: 60px;
+}
+
+#topic {
+    color: #009933;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+header h1, #settings {
+    display: inline-block;
+}
+
+#settings {
+    float: right;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;    
+}
+
+#settings li {
+    list-style-type: none;
+}
+
+#settings li a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#settings ul li a:hover {
+    border-bottom: solid 1.5px #008080;
+    transition: width 0.5s;
+}
+
+/* BLOC_PAGE */
+.statut {
+    font-size: 10px;
+    margin-left: 15px;
+    color: #00ff00;
+}
+
+#users ul {
+    padding:5px;
+}
+
+#users, #discussion {
+    display: inline-block;
+}
+
+#users ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+#users  {
+    float: left;
+    width: 12%;
+    height: 100%;
+    background: #333333;
+    color: white;
+    font-weight: bold;
+    border-right: solid 3px white;
+}
+
+#discussion {
+    margin-left: 10px;
+    width: 85%;
+    height: 100%;
+}
+
+.message p{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.username {
+    border-bottom: solid 2px #008B8B;
+    font-weight: bold;
+}
+
+.message {
+    background: rgba(255,255,255,0.2);
+    margin: 5px 0;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: solid 1px black;
+    font-weight: bold;
+}
