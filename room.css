@@ -1,13 +1,14 @@
 body {
     font-family: Georgia, Times New Roma, sans-serif;
     font-size: 14px;
-}/* changes */
+}
 
 #bloc_page {
     background: #333A56;
     width: 100%;
     margin: 0 auto;
     overflow: auto;
+    border-radius: 3px;
 }
 
 /* HEADER */
@@ -89,6 +90,14 @@ header h1, #settings {
     margin-left: 10px;
     width: 85%;
     height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#display_text
+{
+	overflow: auto;
 }
 
 .message p{
@@ -107,6 +116,31 @@ header h1, #settings {
     padding-left: 5px;
     border-radius: 10px;
 }
+
+#input_text_area
+{
+	border: 1px solid black;
+	/*margin: auto;*/
+
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	/*justify-content: space-between;*/
+	width: 70%;
+
+	position: fixed;
+	bottom:40;
+	left: 170;
+
+
+}
+
+#formulaire_envoi
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 
 /* footer */
 
